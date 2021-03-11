@@ -1,14 +1,12 @@
-// document.querySelector("button").addEventListener("click", handleClick);
-var drumButtons = document.querySelectorAll(".drum");
-for (var i = 0; i < drumButtons.length; i++) {
-  drumButtons[i].addEventListener("click", handleClick);
-}
+var drumButtons = document.querySelectorAll(".drum"); // query all buttons with class 'drum'
 
-// document.querySelector("button").addEventListener("click", function () {
-//   alert("I got clicked!");
-// });
+for (var i = 0; i < drumButtons.length; i++) {
+  drumButtons[i].addEventListener("click", handleClick); // add an event listener to drum buttons
+}
 
 function handleClick() {
-  var audio = new Audio("sounds/tom-1.mp3");
-  audio.play();
+  this.style.color = "white";
 }
+
+// var audio = new Audio("sounds/tom-1.mp3");
+// audio.play();
