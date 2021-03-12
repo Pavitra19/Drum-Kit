@@ -12,6 +12,7 @@ for (var i = 0; i < drumButtons.length; i++) {
 
 function handleClick() {
   this.style.color = "white";
+  console.log(this.innerHTML); // will print out the letters
 }
 
 // var audio = new Audio("sounds/tom-1.mp3");

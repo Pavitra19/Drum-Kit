@@ -5,8 +5,8 @@ for (var i = 0; i < drumButtons.length; i++) {
 }
 
 function handleClick() {
-  this.style.color = "white";
+  this.style.color = "white"; // change text color to white
 }
 
-// var audio = new Audio("sounds/tom-1.mp3");
+// var audio = new Audio("sounds/tom-1.mp3"); // new audio object
 // audio.play();
