@@ -53,8 +53,8 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #dbedf3; /* shadow */
+  opacity: 0.5; /* transparency */
 }
 
 .red {
