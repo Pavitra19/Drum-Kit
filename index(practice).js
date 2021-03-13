@@ -11,7 +11,7 @@ for (var i = 0; i < drumButtons.length; i++) {
 // });
 
 function handleClick() {
-  this.style.color = "white";
+  this.style.color = "white"; // change text color to white
   console.log(this.innerHTML); // will print out the letters
 }
 
